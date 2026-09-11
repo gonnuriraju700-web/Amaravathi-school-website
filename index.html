@@ -1,71 +1,99 @@
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="index.aspx.vb" Inherits="kakinadaidps.WebForm1" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head runat="server">
+    <title></title>
+	<script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": false }, "version": "4.1.4", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "e_panel_promotions": true, "theme_builder_v2": true, "hello-theme-header-footer": true, "nested-elements": true, "global_classes_should_enforce_capabilities": true, "e_variables": true, "e_opt_in_v4_page": true, "e_components": true, "e_interactions": true, "e_widget_creation": true, "import-export-customization": true }, "urls": { "assets": "https:\/\/kakinadaidps.com\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/kakinadaidps.com\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\/\/kakinadaidps.com\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "6a989653a1", "atomicFormsSendForm": "67e0557deb" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description", "hello_header_logo_type": "logo", "hello_header_menu_layout": "horizontal", "hello_footer_logo_type": "logo" }, "post": { "id": 49, "title": "International%20Delhi%20Public%20School%20Kakinada%20%7C%20Top%20CBSE%20School%20in%20Andhra%20Pradesh", "excerpt": "", "featuredImage": "https:\/\/kakinadaidps.com\/wp-content\/uploads\/2025\/05\/cropped-Frame-3-1.png" } };
+    </script>
 	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/kakinadaidps.com\/","url":"https:\/\/kakinadaidps.com\/","name":"International Delhi Public School Kakinada | Top CBSE School in Andhra Pradesh","isPartOf":{"@id":"https:\/\/kakinadaidps.com\/#website"},"about":{"@id":"https:\/\/kakinadaidps.com\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/kakinadaidps.com\/#primaryimage"},"image":{"@id":"https:\/\/kakinadaidps.com\/#primaryimage"},"thumbnailUrl":"https:\/\/kakinadaidps.com\/wp-content\/uploads\/2025\/05\/cropped-Frame-3-1.png","datePublished":"2025-04-19T13:54:14+00:00","dateModified":"2026-01-20T07:21:38+00:00","description":"IDPS Kakinada offers top-tier CBSE education from Nursery to Class 10, with modern facilities, holistic development, and a focus on academic excellence.","breadcrumb":{"@id":"https:\/\/kakinadaidps.com\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/kakinadaidps.com\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/kakinadaidps.com\/#primaryimage","url":"https:\/\/kakinadaidps.com\/wp-content\/uploads\/2025\/05\/cropped-Frame-3-1.png","contentUrl":"https:\/\/kakinadaidps.com\/wp-content\/uploads\/2025\/05\/cropped-Frame-3-1.png","width":512,"height":512},{"@type":"BreadcrumbList","@id":"https:\/\/kakinadaidps.com\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/kakinadaidps.com\/#website","url":"https:\/\/kakinadaidps.com\/","name":"International Delhi Public School, Kakinada","description":"Learn with Purpose, Lead with Pride — IDPS Kakinada, Your Guiding Light!","publisher":{"@id":"https:\/\/kakinadaidps.com\/#organization"},"alternateName":"DPS Kakinada","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/kakinadaidps.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/kakinadaidps.com\/#organization","name":"International Delhi Public School, Kakinada","alternateName":"IDPS, Kakinada","url":"https:\/\/kakinadaidps.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/kakinadaidps.com\/#\/schema\/logo\/image\/","url":"https:\/\/kakinadaidps.com\/wp-content\/uploads\/2025\/05\/cropped-Frame-3-1.png","contentUrl":"https:\/\/kakinadaidps.com\/wp-content\/uploads\/2025\/05\/cropped-Frame-3-1.png","width":512,"height":512,"caption":"International Delhi Public School, Kakinada"},"image":{"@id":"https:\/\/kakinadaidps.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/share\/1DnWJeHzSZ\/?mibextid=wwXIfr","https:\/\/www.instagram.com\/idpskakinada\/"]}]}</script>
 	<script>
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kakinadaidps.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.8"}};
-/*! This file is auto-generated */
-!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/kakinadaidps.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.8" } };
+        /*! This file is auto-generated */
+        !function (s, n) { var o, i, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === a[t] }) } function u(e, t) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)if (0 !== n.data[a]) return !1; return !0 } function f(e, t, n, a) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !a(e, "\ud83e\udedf") }return !1 } function g(e, t, n, a) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : s.createElement("canvas"), o = r.getContext("2d", { willReadFrequently: !0 }), i = (o.textBaseline = "top", o.font = "600 32px Arial", {}); return e.forEach(function (e) { i[e] = t(o, e, n, a) }), i } function t(e) { var t = s.createElement("script"); t.src = e, t.defer = !0, s.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", i = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { s.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p.toString(), u.toString()].join(",") + "));", a = new Blob([e], { type: "text/javascript" }), r = new Worker(URL.createObjectURL(a), { name: "wpTestEmojiSupports" }); return void (r.onmessage = function (e) { c(n = e.data), r.terminate(), t(n) }) } catch (e) { } c(n = g(i, f, p, u)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
 </script>
 	<script id="google_gtagjs-js-after">
-window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
-gtag("set","linker",{"domains":["kakinadaidps.com"]});
-gtag("js", new Date());
-gtag("set", "developer_id.dZTNiMT", true);
-gtag("config", "GT-NCGVCHX8");
- window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); };
+        window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }
+        gtag("set", "linker", { "domains": ["kakinadaidps.com"] });
+        gtag("js", new Date());
+        gtag("set", "developer_id.dZTNiMT", true);
+        gtag("config", "GT-NCGVCHX8");
+        window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify({ name, data }); if (!!window._googlesitekit.throttledEvents[key]) { return; } window._googlesitekit.throttledEvents[key] = true; setTimeout(() => { delete window._googlesitekit.throttledEvents[key]; }, 5); gtag("event", name, { ...data, event_source: "site-kit" }); };
 </script>
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link href="kakinadaidps/stylesheet/StyleSheet1.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet2.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet3.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet4.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet5.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet6.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet7.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet8.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet9.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet10.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet11.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet12.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet13.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet14.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet15.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet16.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet17.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet18.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet19.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet20.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet21.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet22.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet23.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet24.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet25.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet26.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet27.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet28.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet29.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet30.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet31.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet32.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet33.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet34.css" rel="stylesheet" />
-    <link href="kakinadaidps/stylesheet/StyleSheet35.css" rel="stylesheet" />
-    <script src="kakinadaidps/script/JavaScript1.js"></script>
-    <script src="kakinadaidps/script/JavaScrip2t.js"></script>
-    <script src="kakinadaidps/script/JavaScript3.js"></script>
+	<script id="exad-main-script-js-extra">
+        var exad_ajax_object = { "ajax_url": "https:\/\/kakinadaidps.com\/wp-admin\/admin-ajax.php", "nonce": "fe613e6418" };
+    </script>
+	<script id="wp-i18n-js-after">
+        wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
+    </script>
+<script id="elementor-pro-frontend-js-before">
+    var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/kakinadaidps.com\/wp-admin\/admin-ajax.php", "nonce": "88b2c5738e", "urls": { "assets": "https:\/\/kakinadaidps.com\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/kakinadaidps.com\/wp-json\/" }, "settings": { "lazy_load_background_images": true }, "popup": { "hasPopUps": true }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/kakinadaidps.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+</script>
+    <link href="stylesheet/StyleSheet1.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet2.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet3.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet4.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet5.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet6.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet7.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet8.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet9.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet10.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet11.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet12.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet13.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet14.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet15.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet16.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet17.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet18.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet19.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet20.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet21.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet22.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet23.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet24.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet25.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet26.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet27.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet28.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet29.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet30.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet31.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet32.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet33.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet34.css" rel="stylesheet" />
+    <link href="stylesheet/StyleSheet35.css" rel="stylesheet" />
+    <script src="script/JavaScript1.js"></script>
+    <script src="script/JavaScrip2t.js"></script>
+    <script src="script/JavaScript3.js"></script>
+    <script src="script/JavaScript4.js"></script>
+    <script src="script/JavaScript5.js"></script>
+    <script src="script/JavaScript6.js"></script>
+    <script src="script/JavaScript7.js"></script>
+    <script src="script/JavaScrip8t.js"></script>
+    <script src="script/JavaScript9.js"></script>
+    <script src="script/JavaScript10.js"></script>
+    <script src="script/JavaScript11.js"></script>
+    <script src="script/JavaScript12.js"></script>
+    <script src="script/JavaScript13.js"></script>
+    <script src="script/JavaScript14.js"></script>
+    <script src="script/JavaScript15.js"></script>
+    <script src="script/JavaScrip16t.js"></script>
+    <script src="script/JavaScript17.js"></script>
 </head>
 <body>
-    
+    <form id="form1" runat="server">
 		   <div class="home">
         <div class="home wp-singular page-template page-template-elementor_header_footer page page-id-49 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-49">
 
 
 <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-			 
+			 <asp:PlaceHolder ID="Section1" runat="server">
 		<div data-elementor-type="header" data-elementor-id="14" class="elementor elementor-14 elementor-location-header" data-elementor-post-type="elementor_library">
 					<section class="elementor-section elementor-top-section elementor-element elementor-element-5688a1f2 elementor-section-full_width elementor-hidden-mobile elementor-section-height-default elementor-section-height-default exad-glass-effect-no exad-sticky-section-no" data-id="5688a1f2" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
@@ -550,8 +578,8 @@ gtag("config", "GT-NCGVCHX8");
 				</div>
 				</div>
 				</div>
-				 
-			
+				 </asp:PlaceHolder>
+			<asp:PlaceHolder ID="Section2" runat="server">
 				<div data-elementor-type="wp-page" data-elementor-id="49" class="elementor elementor-49" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-67f9e3a e-flex e-con-boxed e-con e-parent" data-id="67f9e3a" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/kakinadaidps.com\/wp-content\/uploads\/2025\/06\/02-International-Delhi-Public-School-Kakinada.mov&quot;}">
 					<div class="e-con-inner">
@@ -2214,8 +2242,8 @@ Academic rigor with board exam readiness, supported by subject mastery, life ski
 					</div>
 		</section>
 				</div>
-				
-				
+				</asp:PlaceHolder>
+				<asp:PlaceHolder ID="Section3" runat="server">
 				<div data-elementor-type="footer" data-elementor-id="17" class="elementor elementor-17 elementor-location-footer" data-elementor-post-type="elementor_library">
 					<section class="elementor-section elementor-top-section elementor-element elementor-element-34b383fc elementor-section-boxed elementor-section-height-default elementor-section-height-default exad-glass-effect-no exad-sticky-section-no" data-id="34b383fc" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
@@ -2450,7 +2478,7 @@ Academic rigor with board exam readiness, supported by subject mastery, life ski
 					</button>
 				</div>
 			</div>
-		
+		</form>
 						</div>
 				</div>
 					</div>
@@ -2486,7 +2514,7 @@ Academic rigor with board exam readiness, supported by subject mastery, life ski
 					</div>
 		</section>
 				</div>
-
+</asp:PlaceHolder>
 		
 <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/hello-elementor\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
@@ -2555,6 +2583,6 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/kakinadaidps.com\/wp-admi
 
 </div>
 			   </div>
-    
+    </form>
 </body>
 </html>
